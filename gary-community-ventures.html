@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gary Community Ventures - Dearfield Fund for Black Wealth Deliverable</title>
+    <script>
+        function checkPassword() {
+            var password = prompt("Please enter the password:");
+            if (password === "123") {
+                document.getElementById("content").style.display = "block";
+                document.getElementById("passwordPrompt").style.display = "none";
+            } else {
+                alert("Incorrect password. Please try again.");
+            }
+        }
+        window.onload = function() {
+            document.getElementById("content").style.display = "none";
+        }
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body onload="checkPassword()">
+    <div class="container">
+        <div id="passwordPrompt">Checking password...</div>
+        <div id="content">
+            <h1>Access My Deliverables</h1>
+            <p><a href="https://drive.google.com/drive/folders/14DYJRr2z8_5HanLST1KvRZ7AHMW6iz4M?usp=drive_link">Link to Deliverables</a></p>
+        </div>
+    </div>
+</body>
+</html>

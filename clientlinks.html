@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Links</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3e3866;
+    color: #333; /* Text color */
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90vw; /* Adjust the width to take up a majority of the page */
+    height: 90vh; /* Adjust the height to take up a majority of the page */
+    max-width: 600px; /* Set a maximum width if needed */
+    padding: 20px;
+    background-color: #c4b3e1; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; /* Blue color */
+}
+
+.link {
+    display: flex;
+    flex-direction: column; /* Display items vertically */
+    margin-bottom: 20px; /* Increase space between links */
+}
+
+.link > a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue color */
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px; /* Increase space between links */
+}
+
+.link > a:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+
+.calendar-img img,
+.survey-img img {
+    width: 100px; /* Increase icon size */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Increase space between icons */
+}
+
+.calendar-img,
+.survey-img {
+    margin-right: 10px; /* Adjust margin to separate icons from links */
+}
+
+
+</style>
+
+
+</head>
+<body>
+    <div class="container">
+        <h1>Client Links</h1>
+        <div class="link">
+            <a href="https://airtable.com/appdCw6xuGxbPHL25/shr2Nj9b54giFqOra" target="_blank">Mid Survey Link</a>
+			<div class="survey-img">
+        <img src="Clientlinkicons/7.png" alt="Survey Icon">
+        </div>
+        <div class="link">
+            <a href="https://airtable.com/appdCw6xuGxbPHL25/shrxDMO8fuFdALyv2" target="_blank">Post Survey Link</a>
+			 <div class="survey-img">
+        <img src="Clientlinkicons/5.png" alt="Survey Icon">
+        </div>
+        <div class="link">
+            <a href="https://calendar.google.com/calendar/embed?src=c_2e390282a04f6161a4a0eb2d3d1b3f36e8f5d3494fd3d3e550f231180b7ece0a%40group.calendar.google.com&ctz=America%2FChicago" target="_blank">Calendar Link</a>
+        <div class="calendar-img">
+        <img src="Clientlinkicons/3.png" alt="Calendar Icon">
+			</div>
+		</div>
+    </div>
+</body>
+</html>
