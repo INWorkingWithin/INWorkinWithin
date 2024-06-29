@@ -1,0 +1,84 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+ /* Center the text */
+        body {
+            text-align: center;
+        }
+
+        /* Make the text bigger */
+        h2 {
+            font-size: 36px; /* Adjust the font size as needed */
+        }
+/* Header styles */
+
+header {
+    background-color: #3e3866;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    width: 100px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    background-color: #3e3866; 
+    text-align: center;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #a591ef;
+    
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+/* Footer styles */
+
+footer {
+    background-color: #3e3866;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
